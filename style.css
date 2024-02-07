@@ -1,0 +1,118 @@
+body{
+    background-color: #ffbfbc;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 3rem 3rem 5% 5%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+header > img{ /* Selects all (img) where the parent is a header  */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul{ /* Selects all (ul) elements inside nav */
+    list-style: none; /* remove bullet points*/
+    text-align: center;
+    font-size: 2rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 1rem;
+    background-color: #D0604C;
+    padding-inline-start: 0px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0.35rem;
+}
+
+nav ul a:hover{
+    color: black;
+}
+
+nav a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+}
+#h1andtext{
+    background-color: #ffffff;
+    border: rgb(0, 0, 0) solid 1px;
+    border-radius: 12px;
+    text-align: center;
+    transition: 0.6s;
+}
+#h1andtext:hover{
+    background-color: red;
+    color: yellow;
+}
+#h2andtext{
+    margin: 20px;
+    border-radius: 2rem;
+}
+
+section{
+    display: flex;
+    gap: 2rem 1rem;
+}
+#advHairTr{
+    margin: 10px;
+    transition: 0.6s;
+}
+#ProSty{
+    margin: 10px;
+    transition: 0.6s;
+}
+#ExpCut{
+    margin: 10px;
+    transition: 0.6s;
+}
+#advHairTr:hover{
+    background-color: white;
+    border-radius: 2rem;
+    transform: scale(1.1);
+}
+#ProSty:hover{
+    background-color: white;
+    border-radius: 2rem;
+    transform: scale(1.1);
+}
+#ExpCut:hover{
+    background-color: white;
+    border-radius: 2rem;
+    transform: scale(1.1);
+}
+article p{
+    text-align: center;
+    font-size: large;
+}
+article img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article{
+    flex: 1;
+    border: black 1px solid;
+    border-radius: 2rem;
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+    margin-top: 10px;
+    border-top: #D0604C 1px solid;
+}
+
